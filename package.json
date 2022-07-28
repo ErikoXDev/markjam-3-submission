@@ -1,14 +1,30 @@
 {
-    "scripts": {
-        "runServer": "node index.js",
-        "testServer": "nodemon index.js",
-        "noMinifyJs": "npx esbuild src/main.js --bundle --keep-names --sourcemap --target=es6 --watch --outfile=dist/dist.js",
-        "buildJs": "npx esbuild src/main.js --bundle --minify --sourcemap --keep-names --target=es6 --watch --outfile=dist/dist.js",
-        "buildJsOnce": "npx esbuild src/main.js --bundle --minify --sourcemap --keep-names --target=es6 --outfile=dist/dist.js"
-    },
-    "dependencies": {
-        "esbuild": "^0.14.48",
-        "express": "^4.18.1",
-        "kaboom": "^2000.2.9"
-    }
+  "scripts": {
+    "runServer": "node index.js",
+    "testServer": "nodemon index.js",
+    "noMinifyJs": "npx esbuild src/main.js --bundle --keep-names --sourcemap --target=es6 --watch --outfile=dist/dist.js",
+    "buildJs": "npx esbuild src/main.js --bundle --minify --sourcemap --keep-names --target=es6 --watch --outfile=dist/dist.js",
+    "buildJsOnce": "npx esbuild src/main.js --bundle --minify --sourcemap --keep-names --target=es6 --outfile=dist/dist.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.14.48",
+    "express": "^4.18.1",
+    "kaboom": "^2000.2.9"
+  },
+  "name": "markjam-3-submission",
+  "description": "- Jam-making game in Mark's Confectory\r - Minigames to play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikoX/markjam-3-submission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErikoX/markjam-3-submission/issues"
+  },
+  "homepage": "https://github.com/ErikoX/markjam-3-submission#readme"
 }
