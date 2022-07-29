@@ -1,4 +1,4 @@
-# Ideas
+# Ideas ~~deprecated~~
 
 - Jam-making game in Mark's Confectory
 - Minigames to play
